@@ -1,11 +1,10 @@
 ---
 layout: post
-title:      "Enter your title here"
+title:      "CLI Data Gem Project"
 date:       2018-05-13 18:45:24 -0400
 permalink:  formatted_like_this
 ---
 
-CLI Data Gem Project
 
 
 I should start off by acknowledging that I was overwhelmed and intimidated by the CLI Gem Project.  However I overcame it after watching Avi's videos on how he created a CLI gem one step at a time.  After following Avi's instructions everything started to fall in place.  The fear waned and I gained my confidence back. 
