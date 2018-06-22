@@ -1,14 +1,24 @@
 ---
 layout: post
-title:      "CLI Data Gem Project"
+title:      "Sinatra Portfolio Project:"
 date:       2018-05-13 18:45:24 -0400
 permalink:  formatted_like_this
 ---
 
 
+I am trying to wrap up my Sinatra project. I still need to write this blog as well as to do a video demonstration of my app. We are required to use Sinatra for this Project. As we all know Sinatra is a light weight frame work, unlike rails which is a full stack web development framework that provides functionality for both front and back end web development. We are also required to use a Model-View-Controller paradigm which separates code by function.
 
-I should start off by acknowledging that I was overwhelmed and intimidated by the CLI Gem Project.  However I overcame it after watching Avi's videos on how he created a CLI gem one step at a time.  After following Avi's instructions everything started to fall in place.  The fear waned and I gained my confidence back. 
+Model – is responsible for logic
 
-I started my project few weeks ago and had a challenging time scraping a web site and was unable to successfully extract data.  Looking back on it now I feel it was due largely in part  to the fact that I was not selecting the correct selector. When making a selector choice for iterating you must ensure that you select right nodeset otherwise you will not be able to select all rows or it may give nil:NilClass (NoMethodError). If some how the data that you are trying to extract is missing. It took me a while to figure this one out. I had to display selected rows when I checked out the last row, I was able to figure out the cause; my slector choice was not right; I fixed my selector and the issue was resolved.
+View – is responsible for rendering a web page to a browser
 
-My project is called top_movies_of_the_year. Top_movies_of_the_year is a CLI interface app that lists the top movies from the Cinema Clock website(https://www.cinemaclock.com/movies/top-10). The user starts the app, the app will  lists the top movies, then it  allows the user to select a movie to get more information about the movie such a overview of the synopsis. The user is allowed to list top movies again by typing "list" or the user can type "exit" to quit or view detail about same or another movie.
+Controller – is responsible for relaying data from a browser to a web application and vice versa.
+
+Also we need to use CRUD (create, read, update, delete) functionality using active record.
+
+I considered a few ideas for my project but ultimately decided to code an app where authors can register and add their books on this site.
+
+I was initially overwhelmed by the requirement of the project , and at the same time excited about using my newly acquired skill to practical use. I came across a few roadblocks but was able to overcome them. One of challenges I faced was how to prevent a category from being deleted when that particular category was already assigned to an existing book. Another one was how to keep count of user's attempt to logon and on third attempt to redirect to reset password page. 
+
+My project has a basic login, logout, signup and reset password functionality. This app allows an author to register on this site.  Once registered he/she can add their books so that  it will show up on the author’s page and also on the home page which displays books of all authors which allows authors to see each other’s books. Author’s can edit/delete their own book, they can add a category to their book from existing list of categories, or they can add a new category for their book. There is also a standalone functionality to add / delete / update a category; however a category already assigned to a book cannot be edited or deleted.
+
