@@ -7,6 +7,7 @@ permalink:  rails_portfolio_project
 
 
 Initially when I started to work on this project I felt it would be fairly easy but I came across few roadblocks.
+Building a more complex form with four models requires that you to strip a
 
 First major roadblock that I encounter was setting up my project, I struggled for hours trying to create a new app using “rails new” but in vain. Finally, I had to seek help from Technical support, we came to the realization that this project need to be worked on a local machine at least initially. There are bunch of steps that you have to go through to set up your local environment. Once app was created on local machine and pushed to GitHub from that points onwards I was able to work on my IDE . I love my IDE environment.
 
